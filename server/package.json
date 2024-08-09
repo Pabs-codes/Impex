@@ -1,0 +1,27 @@
+{
+  "name": "razvoj_veb_aplikacija",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "bun --hot app.js",
+    "postinstall": "prisma generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "5.10.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nanoid": "^5.0.6",
+    "prisma": "5.10.2"
+  }
+}
